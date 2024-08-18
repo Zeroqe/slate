@@ -1,0 +1,58 @@
+.dignity {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    &__header {
+        margin-top: 162px;
+        font-weight: 400;
+        font-size: 52px;
+        text-align: center;
+        letter-spacing: 0em;
+        color: #fff; 
+    }
+    &__subheader {
+        margin-top: 27px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #fff;  
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        margin-right: 27px;
+        img {
+            max-width:100%;
+            height:auto;
+        }
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__box {
+        margin-bottom: 25px;
+        max-width: 280px;
+    }
+    &__title {
+        span {
+            margin-left: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            letter-spacing: 0.01em;
+            color: #fff; 
+            position: relative;
+            top: -30px 
+        }  
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.01em;
+        color: #fff; 
+    }
+}

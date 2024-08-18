@@ -1,0 +1,53 @@
+.footer {
+    margin-top: 257px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;  
+    }
+    &__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 75px;
+    }
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.01em;
+        color: #fff; 
+    }
+    a {
+        display: block;
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 15px;
+        letter-spacing: 0.01em;
+        color: #fff; 
+        text-decoration: none;
+    }
+    &__adress {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        
+    }
+    &__media {
+        display: flex;
+        flex-direction: row;
+    }
+    &__icon {
+        margin-top: 30px;
+        margin-right: 24px;
+    }
+}
+span {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #fff; 
+}

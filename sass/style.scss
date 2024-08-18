@@ -1,0 +1,26 @@
+@import 'base/variables';
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1087px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/dignity';
+@import 'blocks/extension';
+@import 'blocks/partners';
+@import 'blocks/gallery';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+
+@import 'blocks/media';

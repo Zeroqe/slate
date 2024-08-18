@@ -1,0 +1,46 @@
+.partners {
+    margin-bottom: 200px;
+    display: flex;
+    &__header {
+        margin-top: 162px;
+        font-weight: 400;
+        font-size: 52px;
+        text-align: center;
+        letter-spacing: 0em;
+        color: #fff; 
+    }
+    &__subheader {
+        margin-top: 27px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #fff;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    } 
+    &__icons {
+        img {
+            margin-right: 74px;
+            
+        }
+    }
+    &__btn {
+        margin-top: 60px;
+        border: 1px solid #ffff;
+        height: 52px;
+        box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 17px;
+        padding: 13.5px 40px;
+        letter-spacing: 0.01em;
+        color: #fff;
+        cursor: pointer;
+    }
+}
